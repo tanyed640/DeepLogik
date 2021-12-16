@@ -1,1 +1,1279 @@
+<!DOCTYPE html>
 
+<head>
+
+	<title>DeepLogik</title>
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/deemsoft.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='formidable-css'  href='https://deemsoft.com/wp-content/plugins/formidable/css/formidableforms.css?ver=9161140' type='text/css' media='all' />
+<link rel='stylesheet' id='themo-icons-css'  href='https://deemsoft.com/wp-content/plugins/th-widget-pack/assets/icons/icons.css?ver=1.5.13' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://deemsoft.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1633-css'  href='https://deemsoft.com/wp-content/uploads/elementor/css/post-1633.css?ver=1633953549' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.0.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.0.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-187-css'  href='https://deemsoft.com/wp-content/uploads/elementor/css/post-187.css?ver=1621997702' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='roots_app-css'  href='https://deemsoft.com/wp-content/themes/stratusx/assets/css/app.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='roots_child-css'  href='https://deemsoft.com/wp-content/themes/stratusx-child/style.css?ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-119333144-1' id='google_gtagjs-js' async></script>
+<script type='text/javascript' id='google_gtagjs-js-after'>
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-119333144-1", {"anonymize_ip":true});
+</script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.0.8.1' id='font-awesome-4-shim-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://deemsoft.com/wp-json/" /><link rel="alternate" type="application/json" href="https://deemsoft.com/wp-json/wp/v2/pages/187" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://deemsoft.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://deemsoft.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6.2" />
+<link rel='shortlink' href='https://deemsoft.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://deemsoft.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeemsoft.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://deemsoft.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeemsoft.com%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.31.0" /><!--[if lt IE 9]>
+<script src="https://deemsoft.com/wp-content/themes/stratusx/assets/js/vendor/html5shiv.min.js"></script>
+<script src="https://deemsoft.com/wp-content/themes/stratusx/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+<link rel="icon" href="https://deemsoft.com/wp-content/uploads/2021/03/deemfavicon.ico" sizes="32x32" />
+<link rel="icon" href="https://deemsoft.com/wp-content/uploads/2021/03/deemfavicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://deemsoft.com/wp-content/uploads/2021/03/deemfavicon.ico" />
+<meta name="msapplication-TileImage" content="https://deemsoft.com/wp-content/uploads/2021/03/deemfavicon.ico" />
+<style id="kirki-inline-styles">#logo img{max-height:60px;width:auto;}.navbar .navbar-nav{margin-top:15px;}.navbar .navbar-toggle{top:15px;}.themo_cart_icon{margin-top:calc(15px + 12px);}.btn-cta-primary,.navbar .navbar-nav>li>a:hover:after,.navbar .navbar-nav>li.active>a:after,.navbar .navbar-nav>li.active>a:hover:after,.navbar .navbar-nav>li.active>a:focus:after,form input[type=submit],html .woocommerce a.button.alt,html .woocommerce-page a.button.alt,html .woocommerce a.button,html .woocommerce-page a.button,.woocommerce #respond input#submit.alt:hover,.woocommerce a.button.alt:hover,.woocommerce #respond input#submit.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.disabled,.woocommerce #respond input#submit:disabled,.woocommerce #respond input#submit:disabled[disabled],.woocommerce a.button.disabled,.woocommerce a.button:disabled,.woocommerce a.button:disabled[disabled],.woocommerce button.button.disabled,.woocommerce button.button:disabled,.woocommerce button.button:disabled[disabled],.woocommerce input.button.disabled,.woocommerce input.button:disabled,.woocommerce input.button:disabled[disabled],.woocommerce #respond input#submit.disabled:hover,.woocommerce #respond input#submit:disabled:hover,.woocommerce #respond input#submit:disabled[disabled]:hover,.woocommerce a.button.disabled:hover,.woocommerce a.button:disabled:hover,.woocommerce a.button:disabled[disabled]:hover,.woocommerce button.button.disabled:hover,.woocommerce button.button:disabled:hover,.woocommerce button.button:disabled[disabled]:hover,.woocommerce input.button.disabled:hover,.woocommerce input.button:disabled:hover,.woocommerce input.button:disabled[disabled]:hover,.woocommerce #respond input#submit.alt.disabled,.woocommerce #respond input#submit.alt.disabled:hover,.woocommerce #respond input#submit.alt:disabled,.woocommerce #respond input#submit.alt:disabled:hover,.woocommerce #respond input#submit.alt:disabled[disabled],.woocommerce #respond input#submit.alt:disabled[disabled]:hover,.woocommerce a.button.alt.disabled,.woocommerce a.button.alt.disabled:hover,.woocommerce a.button.alt:disabled,.woocommerce a.button.alt:disabled:hover,.woocommerce a.button.alt:disabled[disabled],.woocommerce a.button.alt:disabled[disabled]:hover,.woocommerce button.button.alt.disabled,.woocommerce button.button.alt.disabled:hover,.woocommerce button.button.alt:disabled,.woocommerce button.button.alt:disabled:hover,.woocommerce button.button.alt:disabled[disabled],.woocommerce button.button.alt:disabled[disabled]:hover,.woocommerce input.button.alt.disabled,.woocommerce input.button.alt.disabled:hover,.woocommerce input.button.alt:disabled,.woocommerce input.button.alt:disabled:hover,.woocommerce input.button.alt:disabled[disabled],.woocommerce input.button.alt:disabled[disabled]:hover,p.demo_store,.woocommerce.widget_price_filter .ui-slider .ui-slider-handle,.th-conversion form input[type=submit],.th-conversion .with_frm_style input[type=submit],.th-pricing-column.th-highlight,.search-submit,.search-submit:hover,.widget .tagcloud a:hover,.footer .tagcloud a:hover,.btn-standard-primary-form form .frm_submit input[type=submit],.btn-standard-primary-form form .frm_submit input[type=submit]:hover,.btn-ghost-primary-form form .frm_submit input[type=submit]:hover,.btn-cta-primary-form form .frm_submit input[type=submit],.btn-cta-primary-form form .frm_submit input[type=submit]:hover,.th-widget-area form input[type=submit],.th-widget-area .with_frm_style .frm_submit input[type=submit],.elementor-widget-themo-header.elementor-view-stacked .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block.elementor-view-stacked .th-service-block-w .elementor-icon{background-color:#045089;}a,.accent,.navbar .navbar-nav .dropdown-menu li.active a,.navbar .navbar-nav .dropdown-menu li a:hover,.navbar .navbar-nav .dropdown-menu li.active a:hover,.page-title h1,.inner-container>h1.entry-title,.woocommerce ul.products li.product .price,.woocommerce ul.products li.product .price del,.woocommerce .single-product .product .price,.woocommerce.single-product .product .price,.woocommerce .single-product .product .price ins,.woocommerce.single-product .product .price ins,.a2c-ghost.woocommerce a.button,.th-cta .th-cta-text span,.elementor-widget-themo-info-card .th-info-card-wrap .elementor-icon-box-title,.map-info h3,.th-pkg-content h3,.th-pricing-cost,#main-flex-slider .slides h1,.th-team-member-social a i:hover,.elementor-widget-toggle .elementor-toggle .elementor-toggle-title,.elementor-widget-toggle .elementor-toggle .elementor-toggle-title.active,.elementor-widget-toggle .elementor-toggle .elementor-toggle-icon,.elementor-widget-themo-header .th-header-wrap .elementor-icon,.elementor-widget-themo-header.elementor-view-default .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block .th-service-block-w .elementor-icon,.elementor-widget-themo-service-block.elementor-view-default .th-service-block-w .elementor-icon,.elementor-widget-themo-header.elementor-view-framed .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block.elementor-view-framed .th-service-block-w .elementor-icon{color:#045089;}.btn-standard-primary,.btn-ghost-primary:hover,.pager li>a:hover,.pager li>span:hover,.a2c-ghost.woocommerce a.button:hover{background-color:#045089;}.btn-standard-primary,.btn-ghost-primary:hover,.pager li>a:hover,.pager li>span:hover,.a2c-ghost.woocommerce a.button:hover,.btn-standard-primary-form form .frm_submit input[type=submit],.btn-standard-primary-form form .frm_submit input[type=submit]:hover,.btn-ghost-primary-form form .frm_submit input[type=submit]:hover,.btn-ghost-primary-form form .frm_submit input[type=submit]{border-color:#045089;}.btn-ghost-primary,.th-portfolio-filters a.current,.a2c-ghost.woocommerce a.button,.btn-ghost-primary-form form .frm_submit input[type=submit]{color:#045089;}.btn-ghost-primary,.th-portfolio-filters a.current,.a2c-ghost.woocommerce a.button,.elementor-widget-themo-header.elementor-view-framed .th-header-wrap .elementor-icon,.elementor-widget-themo-service-block.elementor-view-framed .th-service-block-w .elementor-icon{border-color:#045089;}form select:focus,form textarea:focus,form input:focus,.th-widget-area .widget select:focus,.search-form input:focus{border-color:#045089!important;}{color:#f96d64;}.btn-cta-accent,.a2c-cta.woocommerce a.button,.a2c-cta.woocommerce a.button:hover,.btn-standard-accent-form form .frm_submit input[type=submit],.btn-standard-accent-form form .frm_submit input[type=submit]:hover,.btn-ghost-accent-form form .frm_submit input[type=submit]:hover,.btn-cta-accent-form form .frm_submit input[type=submit],.btn-cta-accent-form form .frm_submit input[type=submit]:hover{background-color:#f96d64;}body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block{background:#f96d64!important;}body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,.btn-standard-accent-form form .frm_submit input[type=submit],.btn-standard-accent-form form .frm_submit input[type=submit]:hover,.btn-ghost-accent-form form .frm_submit input[type=submit]:hover,.btn-ghost-accent-form form .frm_submit input[type=submit]{border-color:#f96d64!important;}.btn-standard-accent,.btn-ghost-accent:hover{background-color:#f96d64;border-color:#f96d64;}.btn-ghost-accent,.btn-ghost-accent-form form .frm_submit input[type=submit]{color:#f96d64;}.btn-ghost-accent{border-color:#f96d64;}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:Lato;font-weight:400;}body,p,li{font-family:Lato;font-size:16px;font-weight:400;line-height:1.65;color:#333333;}.navbar .navbar-nav > li > a, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li.active > a, .navbar .navbar-nav > li.active > a:hover, .navbar .navbar-nav > li.active > a:focus, .navbar .navbar-nav > li.th-accent{font-family:Lato;font-size:15px;font-weight:400;color:#000000;}/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://deemsoft.com/wp-content/fonts/lato/S6u9w4BMUTPHh7USSwaPHw3q5d0N7w.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://deemsoft.com/wp-content/fonts/lato/S6u9w4BMUTPHh7USSwiPHw3q5d0.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://deemsoft.com/wp-content/fonts/lato/S6uyw4BMUTPHjxAwWCWtFCfQ7A.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://deemsoft.com/wp-content/fonts/lato/S6uyw4BMUTPHjx4wWCWtFCc.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://deemsoft.com/wp-content/fonts/lato/S6u9w4BMUTPHh6UVSwaPHw3q5d0N7w.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://deemsoft.com/wp-content/fonts/lato/S6u9w4BMUTPHh6UVSwiPHw3q5d0.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style></head>
+
+
+<body class="home page-template-default page page-id-187 wp-custom-logo elementor-default elementor-kit-1633 elementor-page elementor-page-187 th-sticky-header">
+
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    
+
+
+
+  
+<header class="banner navbar navbar-default navbar-static-top " role="banner" data-transparent-header="true">
+    	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="logo">
+                <a href="class="file:///C:/Users/14085/Desktop/Tanush/Coding/Welcome%20to%20Deep%20Logic.html"/">
+                   	                        <img  class="logo-trans logo-reg" src="1.png"   alt="Deep Logic"/>
+                                        <img  class="logo-main logo-reg" src="DEEP-LOGIC.JPG"     alt="Deep Logic" />
+				</a>
+            </div>
+        </div>
+
+        
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul id="menu-main-menu" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-807"></nav>
+	</div>
+</header>
+  <div class="wrap" role="document">
+  
+    <div class="content">
+
+        
+<div class="inner-container">
+	        <h1 class="entry-title">DEEMSOFT HOME</h1>
+    
+	
+        <section class="content-editor">
+    		<div data-elementor-type="wp-page" data-elementor-id="187" class="elementor elementor-187" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-44ab8cf7 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="44ab8cf7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-754c3884" data-id="754c3884" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13a80a59 elementor-invisible elementor-widget elementor-widget-heading" data-id="13a80a59" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Deep Logic</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1e06e5d elementor-invisible elementor-widget elementor-widget-heading" data-id="1e06e5d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Something that will attract the person's attention.</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-12780d85 elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="12780d85" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#intro" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Learn More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73eda35b" data-id="73eda35b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8b56c38 elementor-invisible elementor-widget elementor-widget-image" data-id="8b56c38" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1244" height="904" src="2.png" class="attachment-full size-full" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3c6f313c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c6f313c" data-element_type="section" id="intro">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-675c3e6d" data-id="675c3e6d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-7de0d464 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7de0d464" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7c1127a5 elementor-invisible" data-id="7c1127a5" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:100}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6c7e4719 elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="6c7e4719" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-trip th-prsn travelpack-person-plus"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Topic 1</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">Information about Topic 1.
+ (Make it interesting.)</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-75a78c69 elementor-widget elementor-widget-button" data-id="75a78c69" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="/consultants/" rel="nofollow" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-540be26d elementor-invisible" data-id="540be26d" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:300}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4954d3f9 elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="4954d3f9" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-linea icon-arrows-squares"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Topic 2</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">Information about Topic 2.
+ (Make it interesting.)</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-77d3136b elementor-widget elementor-widget-button" data-id="77d3136b" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="/development/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6dc4fa5 elementor-invisible" data-id="6dc4fa5" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:500}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-71c88c5c elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="71c88c5c" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-linea icon-basic-clock"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Topic 3</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">Information about Topic 3.
+ (Make it interesting.)</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-77240c69 elementor-widget elementor-widget-button" data-id="77240c69" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="/techsupport/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-348ef50a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="348ef50a" data-element_type="section" id="simple">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6384d2c4" data-id="6384d2c4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-256cc381 elementor-invisible elementor-widget elementor-widget-image" data-id="256cc381" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1000" height="647" src="https://deemsoft.com/wp-content/uploads/2021/03/ml.jpg" class="elementor-animation-grow attachment-full size-full" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4099b95a" data-id="4099b95a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-73b074ef elementor-invisible elementor-widget elementor-widget-heading" data-id="73b074ef" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Chip Designing</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5549c750 elementor-invisible elementor-widget elementor-widget-heading" data-id="5549c750" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Producing Chips/Chip Designing</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1b99c4dd elementor-invisible elementor-widget elementor-widget-heading" data-id="1b99c4dd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Info.</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-10fedf7d elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="10fedf7d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chip 1</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chip 2</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chip 3</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chip 4</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chip 5</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chip 6</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1d15829b elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="1d15829b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+	
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d743afd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d743afd" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74120a6" data-id="74120a6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e582cfa elementor-invisible elementor-widget elementor-widget-heading" data-id="e582cfa" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Deep Logic</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bcb6975 elementor-invisible elementor-widget elementor-widget-heading" data-id="bcb6975" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">About Deep Logic/What is Deep Logic</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7497885b elementor-invisible elementor-widget elementor-widget-heading" data-id="7497885b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Info.</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5cc251d1 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="5cc251d1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">1</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">2</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">3</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">4</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">5</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-aea6769 elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="aea6769" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+	
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e477917" data-id="e477917" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a352014 elementor-invisible elementor-widget elementor-widget-image" data-id="a352014" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="985" height="600" src="1.png" class="elementor-animation-grow attachment-full size-full" alt="" loading="Deep Logic"/>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6f47b1fd elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f47b1fd" data-element_type="section" id="threat">
+						<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7b5a0ea2" data-id="7b5a0ea2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4dc3ead7 elementor-invisible elementor-widget elementor-widget-image" data-id="4dc3ead7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="120" height="80" src="https://deemsoft.com/wp-content/uploads/2021/03/cyber.jpeg" class="elementor-animation-grow attachment-th_img_xs size-th_img_xs" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3ec46d49" data-id="3ec46d49" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-44cfa7f9 elementor-invisible elementor-widget elementor-widget-heading" data-id="44cfa7f9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Chips</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-73f9615e elementor-invisible elementor-widget elementor-widget-heading" data-id="73f9615e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Types of Chips</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-68e2011d elementor-invisible elementor-widget elementor-widget-heading" data-id="68e2011d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Info.</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5877b253 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="5877b253" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 1</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 2</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 3</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 4</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 5</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 6</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Type 7</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-360f0111 elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="360f0111" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+	
+						<span class="elementor-button-content-wrapper">
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f4193e9 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f4193e9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-08c3778" data-id="08c3778" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5524178 elementor-invisible elementor-widget elementor-widget-heading" data-id="5524178" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">IOT Development</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c7510c6 elementor-invisible elementor-widget elementor-widget-heading" data-id="c7510c6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">IOT Consulting & Development</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3271234 elementor-invisible elementor-widget elementor-widget-heading" data-id="3271234" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Deliver scalable enterprise IoT solutions with advanced machine learning that automatically secures devices.   Design solutions fit domain specific such as Logistics, healthcare, and manufacturing.</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e8e3de3 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="e8e3de3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Openremote</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">IBM</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">PTC</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Software AG</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Microsoft</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Hitachi</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-364093d elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="364093d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="/portfolio/fullstack/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Learn More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a64e513" data-id="a64e513" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-31b9579 elementor-invisible elementor-widget elementor-widget-image" data-id="31b9579" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="125" height="80" src="https://deemsoft.com/wp-content/uploads/2021/04/iot.png" class="elementor-animation-grow attachment-th_img_xs size-th_img_xs" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2e71d5c elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2e71d5c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9701f48" data-id="9701f48" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7b614e4 elementor-invisible elementor-widget elementor-widget-image" data-id="7b614e4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="120" height="80" src="7.JPG" class="elementor-animation-grow attachment-th_img_xs size-th_img_xs" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c8becdc" data-id="c8becdc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-31b9271 elementor-invisible elementor-widget elementor-widget-heading" data-id="31b9271" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Block Chain</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d33fa0e elementor-invisible elementor-widget elementor-widget-heading" data-id="d33fa0e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Blockchain  & Crypto</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7c49db3 elementor-invisible elementor-widget elementor-widget-heading" data-id="7c49db3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Design and develop  blockchain applications to make business processes more efficient and transparent in fields such as healthcare, supply chain, logistics, legal and more.</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bb56462 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="bb56462" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Hyperledger</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Stellar</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Tezos</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Ethereum</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Openchain</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Chorda</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-94581ca elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="94581ca" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="/casestudies/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Learn More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c5b04ae elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c5b04ae" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wider">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e90b300" data-id="e90b300" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6f521a8 elementor-invisible elementor-widget elementor-widget-heading" data-id="6f521a8" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">full stack development</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4bed639 elementor-invisible elementor-widget elementor-widget-heading" data-id="4bed639" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Full stack Consultants &amp; Developers </h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9dd02f7 elementor-invisible elementor-widget elementor-widget-heading" data-id="9dd02f7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Whether you need a full-stack developer onsite or offsite, we can provide you with people who have the right skills and resources. They can solve problems as simple as a bugfix to as complex as a full-scale project.</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c1b2182 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="c1b2182" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">JAVA</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Python</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Node JS</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">React</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Mongo</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">IOS</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Android</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0aeab6a elementor-align-left elementor-mobile-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="0aeab6a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="/portfolio/fullstack/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Learn More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-aa9dc6c" data-id="aa9dc6c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-096d255 elementor-invisible elementor-widget elementor-widget-image" data-id="096d255" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="120" height="80" src="DEEP-LOGIC.JPG" class="elementor-animation-grow attachment-th_img_xs size-th_img_xs" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-198877b1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="198877b1" data-element_type="section" id="whatwedo" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ec76f6d" data-id="1ec76f6d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-25d802c2 elementor-invisible elementor-widget elementor-widget-heading" data-id="25d802c2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Why Us?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9adac9c elementor-invisible elementor-widget elementor-widget-heading" data-id="9adac9c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Explain why.<br><br>We differentiate ourselves from the crowd with these aspects:</h5>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-40dc9e81 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="40dc9e81" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-47f84d56 elementor-invisible" data-id="47f84d56" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:200}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6ef44f02 elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="6ef44f02" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-linea icon-ecommerce-graph3"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Value Proposition</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">Our core principle is to provide real value to our customers and make sure we provide proper care and due diligence.</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7c0cf688 elementor-invisible" data-id="7c0cf688" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:400}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2a87572f elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="2a87572f" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-linea icon-ecommerce-receipt-dollar"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Cost Effective</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">With proper planning and experience, we blend the right resource with the given task using global sourcing and innovative management.</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-25035013 elementor-invisible" data-id="25035013" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:400}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-195450d4 elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="195450d4" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-trip travelpack-world-wide-web"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Global Resources</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">A highly skilled resource is 8 times more effective than a regular one, so engaging the right resource is key for success regardless of local or global.</p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-63c7bd5c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63c7bd5c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3a61344a elementor-invisible" data-id="3a61344a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:200}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5ef773ec elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="5ef773ec" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-linea icon-arrows-circle-check"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Quality</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">Quality is not a cookie-cutter method. We build systems for the future with scalability, reliability, and security in mind. </p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5f164c39 elementor-invisible" data-id="5f164c39" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:600}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7afaeda4 elementor-view-default elementor-position-top elementor-widget elementor-widget-themo-service-block" data-id="7afaeda4" data-element_type="widget" data-widget_type="themo-service-block.default">
+				<div class="elementor-widget-container">
+					<div class="th-service-block-w">
+            <div class="elementor-icon-box-wrapper th-show-icon">
+                                    <div class="elementor-icon-box-icon th-icon-size-md">
+                        <span class="elementor-icon " >
+                            <i class="th-linea icon-arrows-compress"></i>
+                        </span>
+                    </div>
+                                <div class="elementor-icon-box-content">
+                    <h4 class="elementor-icon-box-title">
+                        <span >Competitive</span>
+                    </h4>
+                    <p class="elementor-icon-box-description">Competition is about how deep we understand your business and how well we can provide a solution with respect to quality, time, and cost. </p>
+                </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper">
+				<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="1.PNG" alt="iso-27001" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://deemsoft.com/wp-content/uploads/2021/02/HIPAA.png" alt="HIPAA" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://deemsoft.com/wp-content/uploads/2021/02/cmmi_3.jpg" alt="cmmi_3" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://deemsoft.com/wp-content/uploads/2021/02/azure.jpg" alt="azure" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://deemsoft.com/wp-content/uploads/2021/02/AWS.png" alt="AWS" /></figure></div>			</div>
+												<div class="swiper-pagination"></div>
+													<div class="elementor-swiper-button elementor-swiper-button-prev">
+						<i class="eicon-chevron-left" aria-hidden="true"></i>
+						<span class="elementor-screen-only">Previous</span>
+					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next">
+
+						<span class="elementor-screen-only">Next</span>
+					</div>
+									</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-72399df9 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="72399df9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2e3664aa" data-id="2e3664aa" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7269c7d5 elementor-invisible elementor-widget elementor-widget-heading" data-id="7269c7d5" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Testimonials</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d0d61df elementor-view-default elementor-position-top elementor-invisible elementor-widget elementor-widget-themo-header" data-id="d0d61df" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="themo-header.default">
+				<div class="elementor-widget-container">
+					<div class="th-header-wrap">
+            <div class="elementor-icon-box-wrapper ">
+                                <div class="elementor-icon-box-content">
+                    <h2 class="elementor-icon-box-title">
+                        <span >What Our Clients Are Saying</span>
+                    </h2>
+                                        <p class="elementor-icon-box-description"></p>
+
+                                    </div>
+            </div>
+
+        </div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f3ce300 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f3ce300" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a6bb82f" data-id="a6bb82f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-68f5d4e elementor-widget elementor-widget-html" data-id="68f5d4e" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script>
+   function changeImg(id){
+     var text = "";
+     var imgname = "";
+     switch(id){
+         case 1: imgname="2021/03/ml.jpg"; 
+         
+         break;
+         case 2: imgname="2021/04/cloudsec.jpg"; text="<b>Encole Inc.,</b><br>At Encole, we provide sophisticated engineering and an industrial products listing platform where consumers can search and filter by exact specifications. <br> Deemsoft has been engaged in building such a platform, which provides bridging between our internal cloud and the vendor's. It also provides data security, safety, and scalability. <br> Deemsoft was instrumental in designing and architecting cloud platforms, providing continuous security monitoring, and implementing improvements. In all these tasks Deemsoft is exceptional in producing reliable solutions and constant communication. <br><b>Alex<b>, CEO Encole";
+         break;
+         case 3: imgname="2021/04/sapsales.jpg"; text="<b>Printform</b><br>We at Printform are specialized in manaufacturing industrial and prototype products using CNC, PolyJet, FDM, and DMLS. <br> Deemsoft was tasked to  implement our E-Commerce website and automate the manufacturing process from an end to end perspective. They integrated Salesforce for marketing & sales process automation and SAP for vendor and manufacturing workflow. <br> They were quite sharp in understanding our requirements, comprehending our pain points very quickly, and delivering the solutions such as auto pricing and Quickbooks.<br><b>Brian Ford </b><br>CEO Printform";
+         break;
+     }
+     var expandImg = document.getElementById("expimg");
+        expandImg.src = '/wp-content/uploads/'+imgname;
+    var paraP = document.getElementById("parap");
+        parap.innerHTML = text;
+    }
+</script>
+<style>
+   .imgthumb {cursor:pointer;} 
+   .imgthumb:hover{ opacity:0.3;}
+</style>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-320962c" data-id="320962c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-421f70e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="421f70e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2342c0b" data-id="2342c0b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c1568f7 elementor-widget elementor-widget-html" data-id="c1568f7" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div>
+</div>
+		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3e2abef" data-id="3e2abef" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fce1774 elementor-widget elementor-widget-html" data-id="fce1774" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div>
+</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-689aa45 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="689aa45" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-684b4fd" data-id="684b4fd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3e8c94c elementor-widget elementor-widget-heading" data-id="3e8c94c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+												<div class="swiper-pagination"></div>
+													<div class="elementor-swiper-button elementor-swiper-button-prev">
+						<i class="eicon-chevron-left" aria-hidden="true"></i>
+						<span class="elementor-screen-only">Previous</span>
+					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next">
+
+						<span class="elementor-screen-only">Next</span>
+					</div>
+									</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7f79fd6f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f79fd6f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-41948575" data-id="41948575" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-549803fc elementor-invisible elementor-widget elementor-widget-heading" data-id="549803fc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ready to try and reach out.</h2>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-313540c4" data-id="313540c4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-35dc792 elementor-widget elementor-widget-wp-widget-frm_show_form" data-id="35dc792" data-element_type="widget" data-widget_type="wp-widget-frm_show_form.default">
+				<div class="elementor-widget-container">
+			<div class="frm_form_widget"><div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_1_container" >
+<form enctype="multipart/form-data" method="post" class="frm-show-form " id="form_contact"  >
+<div class="frm_form_fields ">
+<fieldset>
+<legend class="frm_screen_reader">Contact</legend>
+
+
+
+    
+
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		    </section>    
+        <!-- Comment form for pages -->
+	<div class='container'>        <div class="row">
+			<div class="col-md-12">
+	        
+
+            </div>
+        </div>
+    </div><!-- /.container -->    <!-- End Comment form for pages -->
+    
+        
+                    
+    
+    </div><!-- /.inner-container -->
+    </div><!-- /.content -->
+  </div><!-- /.wrap -->
+
+  
+<div class="prefooter"></div>
+
+<footer class="footer" role="contentinfo">
+	<div class="container">
+							<div class="footer-widgets row th-widget-area">
+              	                    <div class="footer-area-1 col-md-3 col-sm-6">
+ 
+
+									<h3 class="widget-title">CONTACTS</h3>
+								<div class="th-contact-info-widget">
+					<span>ratnakar.yedal@gmail.com</span></a></p></div><div class="icon-block"><span>408-583-7799</span></a></p></div><div class="icon-block"><span>Newark, California USA</span></a></p></div></div>				</div>
+			</div>
+		</section>
+
+		
+        		         			</div>
+    			</div>
+		</section>
+
+		                    </div>
+                				</div>
+			    </div>
+    <div class="footer-btm-bar">        
+        <div class="container">    
+            <div class="footer-copyright row">
+                <div class="col-xs-12">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/th-widget-pack/js/themo-foot.js?ver=1.5.13' id='themo-js-foot-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/themes/stratusx/assets/js/vendor/vendor_footer.js?ver=1.2' id='t_vendor_footer-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/themes/stratusx/assets/js/main.js?ver=1.2' id='roots_main-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-includes/js/wp-embed.min.js?ver=5.6.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1' id='jquery-numerator-js'></script>
+<script type='text/javascript' id='formidable-js-extra'>
+/* <![CDATA[ */
+var frm_js = {"ajax_url":"https:\/\/deemsoft.com\/wp-admin\/admin-ajax.php","images_url":"https:\/\/deemsoft.com\/wp-content\/plugins\/formidable\/images","loading":"Loading\u2026","remove":"Remove","offset":"4","nonce":"66031e8a1c","id":"ID","no_results":"No results match","file_spam":"That file looks like Spam.","calc_error":"There is an error in the calculation in the field with key","empty_fields":"Please complete the preceding required fields before uploading a file."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/formidable/js/frm.min.js?ver=4.07.01' id='formidable-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.8.1' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.8.1' id='share-link-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.8.1","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/deemsoft.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":187,"title":"DEEMSOFT%20%E2%80%93%20Software%20Development%20%26%20Consulting%20Company","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='https://deemsoft.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.8.1' id='elementor-frontend-js'></script>
+</body>
+</html>
